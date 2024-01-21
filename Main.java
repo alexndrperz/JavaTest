@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        for(int i = 1; i <= 10;i++) {
-            System.out.println(i);
+        int cont = 2;
+        while(cont <=10 ) {
+            System.out.println(cont);
+            cont++;
         }
     }
 }
