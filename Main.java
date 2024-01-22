@@ -2,10 +2,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int cont = 2;
-        while(cont <=10 ) {
+        int iterator = 1;
+        int cont = 0;
+        do {
+            cont += iterator ;
+            iterator++;
             System.out.println(cont);
-            cont++;
-        }
+        } while (iterator < 20);
     }
 }
